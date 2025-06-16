@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;   /* vertical centering */
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #181818 0%, #232323 100%);
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.aboutMain {
+  width: 100%;
+  max-width: 800px;
+  background-color: #252525;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+  padding: 2rem 1.5rem;
+  overflow-y: hidden;
+  
+}
+
+/* If using MUI Accordion */
+.MuiAccordion-root {
+  background-color: #181818 !important;
+  color: #fff !important;
+  border: 1px solid #333;
+  border-radius: 8px !important;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  scroll-margin-top: 80px; /* Prevents hiding behind navbar */
+}
+
+.MuiAccordionSummary-root {
+  background-color: #222 !important;
+  color: #fff !important;
+  font-weight: bold;
+  scroll-margin-top: 80px;
+}
+
+.MuiAccordionDetails-root {
+  background-color: #232323 !important;
+  color: #eee !important;
+  border-top: 1px solid #333;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.05rem;
+}

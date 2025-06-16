@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #232323, #373737c2, #4b4b4b);
+  padding: 0 6rem;
+  background-image: url('../public/navimage.jpg');
+  background-size: cover;
+  background-position: center;
+}
+nav h1 {
+  color: white;
+  font-size: 2rem;
+  margin-right: auto;
+  background: linear-gradient(to right, #ffffff, #eeeeee, #dddddd, #cccccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 30%;
+  padding-right: 6rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border: transparent 2px solid;
+  border-radius: 8px;
+  transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: white;
+  color: black;
+}
+
+.nav-image {
+  padding: 0 8rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}

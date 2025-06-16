@@ -1,0 +1,68 @@
+
+.homeContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13%;
+
+}
+
+.homeMain {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: url('../public//homebackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.homeText {
+  text-align: start;
+  width: 50%;
+}
+
+.homeText h1 {
+  
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to right, #ffffff, #eeeeee, #dddddd, #cccccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.homeText p {
+
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  line-height: 1.7em;
+  
+}
+
+.homeText button {
+  padding: 12px 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+  margin-top: 20px;
+}
+.homeText button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.homeText button:focus {
+  background-color: white;
+}
+
